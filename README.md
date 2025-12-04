@@ -31,7 +31,7 @@
       document.getElementById('clock').textContent = new Date().toLocaleString();
       const [l, a, s] = await Promise.all([
         fetch(BASE + '/lancamentos').then(r=>r.json()).catch(()=>[]),
-        fetch(BASE + '/agenda-dia').then(r=>r.json()).catch(()=>[]),
+        fetch(BASE + '/agenda-do-dia').then(r=>r.json()).catch(()=>[]),
         fetch(BASE + '/agenda-servico-social').then(r=>r.json()).catch(()=>[])
       ]);
       renderList('lancamentos', l, ['Data','Hora','Veículo','Condutor','Passageiro','itinerário','Status']);
