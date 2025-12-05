@@ -23,8 +23,8 @@ export default async function handler(req, res) {
     const r = await fetch(url, {
       method: "GET",
       headers: {
-        "ApplicationAccessKey": API_KEY,
-        "ApplicationId": APP_ID,
+        "ApplicationAccessKey": vck_5nnzxT4DYsjm6HMYFjt9foIPwWz7NG8nWTPuFsJJWjWOOqIBsH4I90p7,
+        "ApplicationId": 1_veAmTegrzvOSXV-2bACKkdpeRrnr9MzN5UbB4B6S5s,
         "Content-Type": "application/json"
       }
     });
