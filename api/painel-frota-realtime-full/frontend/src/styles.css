@@ -1,7 +1,0 @@
-body{margin:0}
-.card{background:rgba(255,255,255,0.03); padding:12px; border-radius:10px;}
-table{width:100%; border-collapse:collapse; font-size:14px;}
-th{text-align:left; padding:6px; border-bottom:1px solid rgba(255,255,255,0.06);}
-td{padding:6px; border-bottom:1px solid rgba(255,255,255,0.03);}
-.status-em{color:#f6e05e; font-weight:700;}
-.status-ok{color:#9ae6b4; font-weight:700;}
